@@ -1,0 +1,16 @@
+.noidung {
+  height: 550px;
+  width: 550px;
+  overflow: hidden;
+}
+.zoomin img {
+  height: 550px;
+  width: 550px;
+  -webkit-transition: all 2s ease;
+  -moz-transition: all 2s ease;
+  -ms-transition: all 2s ease;
+  transition: all 2s ease;
+}
+.zoomin img:hover {
+    transform: scale(1.5);
+}

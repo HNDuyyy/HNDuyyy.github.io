@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/style-slideshow.css">
+    <link rel="stylesheet" href="CSS/style-chat.css">
+    <link rel="stylesheet" href="CSS/style-slideshowsp.css">
+    <link rel="stylesheet" href="CSS/style-quangcao.css">
+    <link rel="stylesheet" href="CSS/style-zoom.css">
+    <link rel="stylesheet" href="CSS/style-footer.css">
+    <link rel="stylesheet" href="CSS/style-scrollmenu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="JS/javascript-chat.js"></script>
+    <script src="JS/javascript-slideshowsp.js"></script>
+    <script src="JS/javascript-quangcao.js"></script>
+    <script src="JS/javascript-demnguoc.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Trang Chủ MSI</title>
+</head>
+
+<body onload="showSlidessp()">
+    <div class="float-ck" style="left: 0px">
+        <div id="hide_float_right">
+            <a href="javascript:hide_float_right()"><b>Close[X]</b></a>
+        </div>
+        <div id="float_content_right">
+            <!-- Start quang cao-->
+            <img src="IMG/Widget_MSIOLOGY.png">
+            <!-- End quang cao -->
+        </div>
+    </div>
+    <div id="onl" style="position: fixed; bottom: 160px; top:60px;left:300px;z-index:100;">
+        <div style="background-color:rgb(0, 0, 0); width:1000px; height: 200px;">
+            <a href="javascript:un()" style="color:rgb(255, 255, 255); font-size: 18px;"><b> Close Ads [X]</b></a>
+            <img src="IMG/quangcao.jpg" width="100%" />
+        </div>
+    </div>
+    <div class="topnav">
+        <a class="active" href="#home"><img src="IMG/logomsi.png"></a>
+        <a href="https://vn.msi.com/Graphics-Cards#?tag=GeForce-RTX%26trade%3B-3090">Sản Phẩm</a>
+        <a href="https://eps.msi.com/">Giải Pháp OMD</a>
+        <a href="https://www.msi.com/Landing/insider">Cộng Đồng</a>
+        <a href="https://vn.msi.com/Whats_new">Có Gì Mới</a>
+        <a href="https://vn.msi.com/support"> Hỗ Trợ</a>
+        <a href="#" style="float: right"><img src="IMG/loupe.png" style="width: 70%"></a>
+        <a href="https://www.msi.com/service/wheretobuy#1" style="float: right"><img src="IMG/pin.png" style="width: 70%"></a>
+        <a href="https://account.msi.com/login" style="float: right"><img src="IMG/user.png" style="width: 70%"></a>
+    </div>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 4</div>
+            <img src="IMG/banner_1.jpeg" style="width:100%">
+            <div class="text">MSI Care mang đến cho bạn sự an tâm tuyệt đối với các thiết bị MSI</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 4</div>
+            <img src="IMG/banner_2.jpeg" style="width:100%">
+            <div class="text">REDEEM A MODERN LED LUX SCREEN LIGHT BAR WITH THE PURCHASE OF A SELECT PRODUCT!</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+            <img src="IMG/banner_3.jpeg" style="width:100%">
+            <div class="text">SẴN SÀNG CHO NĂM HỌC MỚI VỚI LAPTOP MSI</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img src="IMG/banner_4.jpeg" style="width:100%">
+            <div class="text">Improve Performance with Resizable BAR. Now available for MSI GeForce RTX 30 Series graphics cards</div>
+        </div>
+    </div>
+    <br>
+    <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+    <script src="JS/javascript-slideshow.js"></script>
+    <img src="IMG/banner-logo.png" class="open-button" onclick="openForm()" style="width:150px">
+    <div class="chat-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+            <h1>Chat</h1>
+
+            <label for="msg"><b>Message</b></label>
+            <textarea placeholder="Type message.." name="msg" required></textarea>
+
+            <button type="submit" class="btn">Send</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+    </div>
+    <div>
+      <h2><u>SẢN PHẨM TÌM THEO DANH MỤC</u></h2>
+      <button class="button-sp" onclick="window.location.href='PC.html'"><b>PC</b></button>
+      <button class="button-sp"onclick="window.location.href='Màn hình.html'"><b>MÀN HÌNH</b></button>
+      <button class="button-sp"onclick="window.location.href='Card màn hình.html'"><b>CARD ĐỒ HỌA</b></button>
+      <button class="button-sp"onclick="window.location.href='Màn hình.html'"><b>BO MẠCH CHỦ</b></button>
+      <h2 style="color: rgb(0, 0, 0); "><u>MỘT SỐ SẢN PHẨM LAPTOP NỔI BẬT</u></h2>
+  <div class="scrollmenu ">
+    <a> 
+      <div class="column1 ">
+      <div class="card ">
+        <img src="IMG/GE76.webp " alt="Jane " style="width:100% ">
+        <div class="container ">
+          <h2 style="color: black; ">GP76 Leopard</h2>
+          <p style="color: black; ">Vi xử lí Intel Core thế hệ 11</p>
+          <p style="color: black; ">GeForce RTX 30 series</p>
+          <p><button class="button ">Chọn Mua</button></p>
+        </div>
+      </div>
+    </div>
+  </a>
+  <a>
+  <div class="column1 ">
+    <div class="card ">
+      <img src="IMG/GS66.webp " alt="Jane " style="width:100% ">
+      <div class="container ">
+        <h2 style="color: black; ">GS66 Stealth</h2>
+        <p style="color: black; ">Vi xử lí Intel Core thế hệ 11</p>
+        <p style="color: black; ">GeForce RTX 30 series</p>
+        <p><button class="button ">Chọn Mua</button></p>
+      </div>
+    </div>
+  </div>
+  </a>
+  <a>
+  <div class="column1 ">
+    <div class="card ">
+      <img src="IMG/GE76 RAIDER.webp " alt="Jane " style="width:100% ">
+      <div class="container ">
+        <h2 style="color: black; ">GE76 RAIDER</h2>
+        <p style="color: black; ">Vi xử lí Intel Core thế hệ 11</p>
+        <p style="color: black; ">GeForce RTX 30 series</p>
+        <p><button class="button ">Chọn Mua</button></p>
+      </div>
+    </div>
+  </div>
+  </a>
+  <a>
+  <div class="column1 ">
+    <div class="card ">
+      <img src="IMG/GE66 RAIDER.webp " alt="Jane " style="width:100% ">
+      <div class="container ">
+        <h2 style="color: black; ">GE66 RAIDER</h2>
+        <p style="color: black; ">Vi xử lí Intel Core thế hệ 10</p>
+        <p style="color: black; ">GeForce RTX 30 series</p>
+        <p><button class="button ">Chọn Mua</button></p>
+      </div>
+    </div>
+  </div>
+  </a>
+  <a>
+  <div class="column1 ">
+    <div class="card ">
+      <img src="IMG/GE76.webp " alt="Jane " style="width:100% ">
+      <div class="container ">
+        <h2 style="color: black; ">GE76</h2>
+        <p style="color: black; ">Vi xử lí Intel Core thế hệ 10</p>
+        <p style="color: black; ">GeForce RTX 30 series</p>
+        <p><button class="button ">Chọn Mua</button></p>
+      </div>
+    </div>
+  </div>
+  </a>
+  <a>
+  <div class="column1 ">
+    <div class="card ">
+      <img src="IMG/GS66 STEALTH15M.webp " alt="Jane " style="width:100% ">
+      <div class="container ">
+        <h2 style="color: black; ">GS66 STEALTH15M</h2>
+        <p style="color: black; ">Vi xử lí Intel Core thế hệ 10</p>
+        <p style="color: black; ">GeForce RTX 30 series</p>
+        <p><button class="button ">Chọn Mua</button></p>
+      </div>
+    </div>
+  </div>
+  </a>
+  <a>
+  <div class="column1 ">
+    <div class="card ">
+      <img src="IMG/PULSE GL76.webp " alt="Jane " style="width:100% ">
+      <div class="container ">
+        <h2 style="color: black; ">PULSE GL76</h2>
+        <p style="color: black; ">Vi xử lí Intel Core thế hệ 11</p>
+        <p style="color: black; ">GeForce RTX 30 series</p>
+        <p><button class="button ">Chọn Mua</button></p>
+      </div>
+    </div>
+  </div>
+  </a>
+  <a>
+  <div class="column1 ">
+    <div class="card ">
+      <img src="IMG/ALPHA15.webp " alt="Jane " style="width:100% ">
+      <div class="container ">
+        <h2 style="color: black; ">ALPHA15</h2>
+        <p style="color: black; ">Vi xử lí AMD Ryzen 5000H-Series</p>
+        <p style="color: black; ">AMD Radeon RX 6000M Series</p>
+        <p><button class="button ">Chọn Mua</button></p>
+      </div>
+    </div>
+  </div>
+  </a>
+  <a>
+  <div class="column1 ">
+    <div class="card ">
+      <img src="IMG/DELTA15.webp " alt="Jane " style="width:100% ">
+      <div class="container ">
+        <h2 style="color: black; ">DELTA15</h2>
+        <p style="color: black; ">Vi xử lí AMD Ryzen 5000H-Series</p>
+        <p style="color: black; ">AMD Radeon RX 6000M Series</p>
+        <p><button class="button ">Chọn Mua</button></p>
+      </div>
+    </div>
+  </div>
+  </a>
+  <a>
+  <div class="column1 ">
+    <div class="card ">
+      <img src="IMG/STEALTH15M.webp " alt="Jane " style="width:100% ">
+      <div class="container ">
+        <h2 style="color: black; ">STEALTH15M</h2>
+        <p style="color: black; ">Vi xử lí Intel Core thế hệ 11</p>
+        <p style="color: black; ">GeForce RTX 16 series</p>
+        <p><button class="button ">Chọn Mua</button></p>
+      </div>
+    </div>
+  </div>
+  </a>
+</div>
+        <h2 style="color: rgb(0, 0, 0);"><u>CHƯƠNG TRÌNH KHUYẾN MÃI TRI ÂN KHÁCH HÀNG CỦA MSI</u> <br><br>
+          <h3 style="text-align: center;">Trương Trình Khuyến Mãi Bắt Đầu Sau: <p id="demnguoc" style="color:red"></p> </h2>  </h3>
+        <table border="0">
+            <tr>
+                <td style="width: 750px;text-align: center;">
+                  <div class="imghover-container">
+                    <a href="#">
+                      <span class="more" style="color: darkviolet; font-size: 17px;"><b>Mua Ngay</b></span>
+                    <img src="IMG/rtx3090.jfif" alt="" style="width: 500px;">
+                  </a>
+                </div>
+                    <h3>CARD Đồ Họa
+                        <br> GeForce RTX 3090 SUPRIM X 24G
+                    </h3>
+                </td>
+                <td style="width: 750px;text-align: center;">
+                  <div class="imghover-container">
+                    <a href="#">
+                      <span class="more"style="color: darkviolet; font-size: 17px;"><b>Mua Ngay</b></span>
+                    <img src="IMG/z590-unify-board02.png"  style="width: 500px;">
+                  </a>
+                </div>
+                    <h3>Bo Mạch Chủ
+                        <br> MEG Z590 UNIFY-X</h3>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="video" style="text-align: center;">
+        <h2 style="color: rgb(0, 0, 0); text-align: left;"><u>GIỚI THIỆU SẢN PHẨM MỚI</u></h2>
+        <video width="100%" controls>
+    <source src="VIDEO/GP76-GP66 Leopard 10UX – Bold & Strengthened Laptop You Should Have - MSI.mp4">
+  </video>
+        <h2>Máy tính xách tay MSI Gaming GP76 Leopard 10UE-604VN <br>(i7 10870H/32GB RAM/1TB SSD/RTX3060 6G/17.3 inch FHD 144Hz/win 10) (2021)</h2>
+    </div>
+    <div>
+        <h2 style="color: rgb(0, 0, 0);"><u>SẢN PHẨM BÁN CHẠY</u></h2>
+        <table border="0">
+            <tr>
+                <td>
+                    <div class="containersp">
+                        <div class="mySlidessp">
+                            <div class="numbertextsp">1 / 5</div>
+                            <div class="zoomin noidung">
+                                <img id="myimage" src="IMG/gt76.png" width="700" height="700">
+                            </div>
+                        </div>
+
+                        <div class="mySlidessp">
+                            <div class="numbertextsp">2 / 5</div>
+                            <div class="zoomin noidung">
+                                <img src="IMG/gt76a.png" width="700" height="700">
+                            </div>
+                        </div>
+
+                        <div class="mySlidessp">
+                            <div class="numbertextsp">3 / 5</div>
+                            <div class="zoomin noidung">
+                                <img src="IMG/gt76b.png" width="700" height="700">
+                            </div>
+                        </div>
+
+                        <div class="mySlidessp">
+                            <div class="numbertextsp">4 / 5</div>
+                            <div class="zoomin noidung">
+                                <img src="IMG/gt76c.png" width="700" height="700">
+                            </div>
+                        </div>
+
+                        <div class="mySlidessp">
+                            <div class="numbertextsp">5 / 5</div>
+                            <div class="zoomin noidung">
+                                <img src="IMG/gt76d.png" width="700" height="700" ">
+            </div>
+          </div>
+            
+          <a class="prevsp " onclick="plusSlides(-1) ">❮</a>
+          <a class="nextsp " onclick="plusSlides(1) ">❯</a>
+          <div class="row ">
+            <div class="column ">
+              <img class="demo cursor " src="IMG/gt76.png " style="width: 50px; " onclick="currentSlidesp(1) ">
+            </div>
+            <div class="column ">
+              <img class="demo cursor " src="IMG/gt76a.png " style="width:50px " onclick="currentSlidesp(2) ">
+            </div>
+            <div class="column ">
+              <img class="demo cursor " src="IMG/gt76b.png " style="width:50px " onclick="currentSlidesp(3) ">
+            </div>
+            <div class="column ">
+              <img class="demo cursor " src="IMG/gt76c.png " style="width:50px " onclick="currentSlidesp(4) ">
+            </div>
+            <div class="column ">
+              <img class="demo cursor " src="IMG/gt76d.png " style="width:50px " onclick="currentSlidesp(5) ">
+            </div>    
+          </div>
+        </div>
+        <div><h3>Chia sẻ &#8287;<img src="IMG/social-facebook.svg ">&#8287;<img src="IMG/social-messenger.svg ">&#8287;<img src="IMG/social-pinterest.svg ">&#8287;<img src="IMG/social-twitter.svg ">&#8287;<img src="IMG/social-copy.svg
+                                    " ><b> &verbar;</b> <img src="IMG/icons-like.svg ">&#8287;Yêu thích</h3></div>
+      </td>
+      <td>
+        <h1>Laptop MSI Gaming GT76 Titan DT 9SG i9-9900K/64GB RAM/2x512GB NVMe PCIe + 1TB HDD/RTX 2080/17.3 inch FHD IPS/Win 10)</h1>
+        <div>
+        <span class="fa fa-star checked "></span>
+        <span class="fa fa-star checked "></span>
+        <span class="fa fa-star checked "></span>
+        <span class="fa fa-star checked "></span>
+        <span class="fa fa-star checked "></span>
+        <h4>(xem 1234 đánh giá) &verbar; Đã bán 12345</h4>
+        <h1 style="color: brown; ">113.109.000<u>Đ</u></h1>
+            <span style="font-size: 25px;">1: Hoàn tiền 15% tối đa 600k/tháng</span><br>
+            <span style="font-size: 25px;">2: Miễn Phí Vận Chuyển</span><br>
+            <span style="font-size: 25px;">3: Mã Giảm Giá</span><br>
+            <div class="magiamgia">
+                <button>Giảm 5%</button>
+                <button>Giảm 20%</button>
+                <button>Giảm 50%</button>
+            </div>
+            <span style="font-size: 16px;color: gray; margin-top: 20px; line-height: 25px;">Bạn hãy <b style="color: blue;">NHẬP ĐỊA CHỈ</b> nhận hàng để được dự báo thời gian & chi phí giao hàng một cách chính xác nhất.</span><br>
+            <span style="font-size: 20px; color:black;margin-top: 30px; "><b>Số Lượng</b></span>
+            <div class="soluong"><br>
+                <button>-</button>
+                <button>1</button>
+                <button>+</button>
+            </div><br>
+            <div class="muahang">
+                <button style="background: darkviolet; color: white;">Chọn Mua</button>
+                <button style="background: gray; color: white;">Trả Góp Bằng Thẻ</button>
+            </div>
+        </div>
+      </td>
+    </tr>
+  </table>
+  
+    </body>
+    <footer>
+      <div class="container ">
+        <!--Bắt Đầu Nội Dung Giới Thiệu-->
+        <div class="noi-dung about ">
+            <h2>Về Tôi</h2>
+            <p> </p>
+            <ul class="social-icon ">
+                <li><a href="https://www.facebook.com/ngocduy26/ "><i class="fa fa-facebook "></i></a></li>
+                <li><a href=" "><i class="fa fa-twitter "></i></a></li>
+                <li><a href="https://www.instagram.com/hangocduyy/?hl=vi "><i class="fa fa-instagram "></i></a></li>
+                <li><a href=" "><i class="fa fa-youtube "></i></a></li>
+            </ul>
+        </div>
+        <!--Kết Thúc Nội Dung Giới Thiệu-->
+        <!--Bắt Đầu Nội Dung Đường Dẫn-->
+        <div class="noi-dung links ">
+            <h2>Đường Dẫn</h2>
+            <ul>
+                <li><a href="# ">Trang Chủ</a></li>
+                <li><a href="# ">Về Chúng Tôi</a></li>
+                <li><a href="# ">Thông Tin Liên Lạc</a></li>
+                <li><a href="# ">Dịch Vụ</a></li>
+                <li><a href="# ">Điều Kiện Chính Sách</a></li>
+            </ul>
+        </div>
+        <!--Kết Thúc Nội Dung Đường Dẫn-->
+        <!--Bắt Đâu Nội Dung Liên Hệ-->
+        <div class="noi-dung contact ">
+            <h2>Thông Tin Liên Hệ</h2>
+            <ul class="info ">
+                <li>
+                    <span><i class="fa fa-map-marker "></i></spanz>
+                    <span>Phố Đội Cấn Quận Ba Đình, Thành phố Hà Nội, Việt Nam</span>
+                </li>
+                <li>
+                    <span><i class="fa fa-phone "></i></span>
+                    <p><a href="# ">+84 382 008 880</a>
+                        <br />
+                        <a href="# ">+84 879 695 638</a></p>
+                </li>
+                <li>
+                    <span><i class="fa fa-envelope "></i></span>
+                    <p><a href="# ">hangocduy2603@gmail.com</a></p>
+               </li>
+            </ul>
+        </div>
+        <!--Kết Thúc Nội Dung Liên Hệ-->
+    </div>
+    </footer>
+</html>
